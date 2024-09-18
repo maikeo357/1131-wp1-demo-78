@@ -1,5 +1,5 @@
 import Book_78 from './Book_78'
-import books_data from './book_data'
+import books_data from './data/book_data2'
 
 console.log('books_data', books_data)
 

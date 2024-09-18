@@ -1,4 +1,4 @@
-const Book_78 = () => {
+const Book_78 = ({ img, title, author }) => {
   return (
     <article className='book'>
       <img src={img} />

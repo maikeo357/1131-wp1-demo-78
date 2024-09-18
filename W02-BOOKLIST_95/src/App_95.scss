@@ -8,6 +8,7 @@
   width: 90%;
   display: grid;
   gap: 1.5rem;
+  margin: 3rem auto;
 
   .book {
     background-color: #eee;
@@ -15,28 +16,28 @@
     padding: 1rem;
     img {
       width: 100%;
-      height: 250px;
+      height: 300px;
       object-fit: cover;
       margin: 0 auto;
     }
   }
-}
 
-.bookinfo {
-  font-family: 'roboto' 'san-serif';
-  color: #444;
-}
+  .bookinfo {
+    font-family: 'roboto' 'san-serif';
+    color: #444;
+  }
 
-h1 {
-  font-size: 1rem;
-  font-weight: 600;
-  padding-top: 0.5rem;
-}
+  h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-top: 0.5rem;
+  }
 
-h4 {
-  font-size: 0.8rem;
-  padding-top: 0.5rem;
-  color: #666;
+  h4 {
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    color: #666;
+  }
 }
 
 @media screen and (min-width: 500px) {
