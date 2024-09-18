@@ -1,18 +1,10 @@
 import './App_95.scss'
+import Booklist_78 from './components/Booklist_78'
 
 // fragment
 
 const App_95 = () => {
-  return (
-    <section className='booklist'>
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-      <Book />
-    </section>
-  )
+  return <Booklist_78></Booklist_78>
 }
 const Book = () => {
   return (
