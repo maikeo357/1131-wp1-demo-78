@@ -1,4 +1,4 @@
-create_table blog_78 (
+CREATE TABLE blog_78 (
     id int not null primary key,
     title varchar(255),
     descrip text,
